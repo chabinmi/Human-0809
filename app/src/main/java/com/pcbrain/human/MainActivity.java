@@ -14,8 +14,7 @@ public class MainActivity extends AppCompatActivity {
         Human human = new Human("井上雅之", 49, "経済力");     // Humanのインスタンスを作る
         human.say();
 
-        Human2 human2 = new Human2();
-        human2.think();
+        human.think();
     }
 }
 
