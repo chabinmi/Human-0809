@@ -4,7 +4,7 @@ import android.util.Log;
 
 import com.pcbrain.human.Animal;
 
-class Human extends Animal {
+class Human extends Animal implements Thinkable {
     // クラス変数
     //String name;  // 名前
     //int age;    // 年齢
@@ -18,12 +18,12 @@ class Human extends Animal {
     }
 
     // メンバ関数
-    @Override
+    //@Override
     public void say() {
         Log.d("javatest", "私の名前は" + this.name + "です。年は" + this.age + "歳です。");
     }
 
-    //@Override
+    @Override
     public void think() {
         Log.d("javatest", "私は" + this.hobby + "について考える。");
     }
